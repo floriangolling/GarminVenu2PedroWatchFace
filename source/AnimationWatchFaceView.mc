@@ -148,7 +148,6 @@ class AnimationWatchFaceView extends WatchUi.WatchFace {
         // Get and overlay the current time on top of the animation background
         var clockTime = System.getClockTime();
         var hourMinString = Lang.format("$1$:$2$", [clockTime.hour, clockTime.min.format("%02d")]);
-        var secString = Lang.format( "$1$", [clockTime.sec.format("%02d")] );
 
         if( isFullUpdate ) {
             // Full update, clear the layer clip
