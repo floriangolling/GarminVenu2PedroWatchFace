@@ -6,6 +6,26 @@ This application displays "pedro" racoon dancing around you watchface.
 
 ![screenshot](screenshot.png)
 
+## Adding the Watchface to the Watch Using USB
+
+To install your Monkey C watchface app on your Garmin Venu 2 using USB, follow these steps:
+
+1. Connect your Garmin Venu 2 to your computer using a USB cable.
+   
+2. Once connected, your Garmin Venu 2 should appear as a storage device on your computer.
+
+3. Locate the `.prg` file generated after building your Monkey C project. This file is typically located in the `build` folder of your project directory.
+
+4. Copy the `.prg` file to the `APPS` folder on your Garmin Venu 2. If the `APPS` folder doesn't exist, you may need to create it.
+
+5. Safely eject your Garmin Venu 2 from your computer.
+
+6. On your Garmin Venu 2, navigate to the watchface selection screen.
+
+7. Find and select your Monkey C watchface app from the list of available watchfaces.
+
+8. Your Monkey C watchface app should now be installed and ready to use on your Garmin Venu 2.
+
 ## Monkey C Extension for VS Code
 
 To develop Garmin Monkey C watchface apps efficiently, you'll need the Monkey C extension for Visual Studio Code. Follow these steps to install it:
