@@ -1,0 +1,591 @@
+[ @file = "/home/florian/Desktop/GarminVenu2PedroWatchFace/source/AnimationWatchFaceView.mc"; @line = 1; ]
+using Toybox.WatchUi;
+[ @file = "/home/florian/Desktop/GarminVenu2PedroWatchFace/source/AnimationWatchFaceView.mc"; @line = 2; ]
+using Toybox.Graphics;
+[ @file = "/home/florian/Desktop/GarminVenu2PedroWatchFace/source/AnimationWatchFaceView.mc"; @line = 3; ]
+using Toybox.System;
+[ @file = "/home/florian/Desktop/GarminVenu2PedroWatchFace/source/AnimationWatchFaceView.mc"; @line = 4; ]
+using Toybox.Lang;
+[ @file = "/home/florian/Desktop/GarminVenu2PedroWatchFace/source/AnimationWatchFaceView.mc"; @line = 5; ]
+using Toybox.Graphics as :Gfx;
+[ @file = "/home/florian/Desktop/GarminVenu2PedroWatchFace/source/AnimationWatchFaceView.mc"; @line = 6; ]
+using Toybox.Attention as :Attention;
+[ @file = "/home/florian/Desktop/GarminVenu2PedroWatchFace/source/AnimationWatchFaceView.mc"; @line = 8; ]
+class AnimationDelegate extends WatchUi.AnimationDelegate{
+    [ @file = "/home/florian/Desktop/GarminVenu2PedroWatchFace/source/AnimationWatchFaceView.mc"; @line = 8; ]
+    <init> {
+    }
+    [ @file = "/home/florian/Desktop/GarminVenu2PedroWatchFace/source/AnimationWatchFaceView.mc"; @line = 8; ]
+    static
+    <init> {
+    }
+    [ @file = "/home/florian/Desktop/GarminVenu2PedroWatchFace/source/AnimationWatchFaceView.mc"; @line = 10; @position = 8; ]
+    var view = null;
+    [ @file = "/home/florian/Desktop/GarminVenu2PedroWatchFace/source/AnimationWatchFaceView.mc"; @line = 12; ]
+    function initialize(v) as Void {
+_home_florian_Desktop_GarminVenu2PedroWatchFace_source_AnimationWatchFaceView_mc_12_29_15_4_start:
+[ "/home/florian/Desktop/GarminVenu2PedroWatchFace/source/AnimationWatchFaceView.mc" 13 8 ]
+        %tmp.2 = lgetv %v;
+        putv self :view %tmp.2;
+[ "/home/florian/Desktop/GarminVenu2PedroWatchFace/source/AnimationWatchFaceView.mc" 14 8 ]
+        %tmp.3 = getm $.Toybox.WatchUi;
+        %tmp.4 = getv %tmp.3 :AnimationDelegate;
+        %tmp.5 = getv function %tmp.4 :initialize;
+        invoke %tmp.4 %tmp.5();
+_home_florian_Desktop_GarminVenu2PedroWatchFace_source_AnimationWatchFaceView_mc_12_29_15_4_stop:
+    }
+    [ @file = "/home/florian/Desktop/GarminVenu2PedroWatchFace/source/AnimationWatchFaceView.mc"; @line = 17; ]
+    function onAnimationEvent(event, options) {
+_home_florian_Desktop_GarminVenu2PedroWatchFace_source_AnimationWatchFaceView_mc_18_4_29_4_start:
+[ "/home/florian/Desktop/GarminVenu2PedroWatchFace/source/AnimationWatchFaceView.mc" 19 8 ]
+_home_florian_Desktop_GarminVenu2PedroWatchFace_source_AnimationWatchFaceView_mc_19_8_28_8_if_stmt:
+        %tmp.2 = lgetv %event;
+        %tmp.3 = getm $.Toybox.WatchUi;
+        %tmp.4 = getv %tmp.3 :ANIMATION_EVENT_COMPLETE;
+        %tmp.5 = eq %tmp.2 %tmp.4;
+        bf %tmp.5 @_home_florian_Desktop_GarminVenu2PedroWatchFace_source_AnimationWatchFaceView_mc_19_8_28_8_if_false;
+_home_florian_Desktop_GarminVenu2PedroWatchFace_source_AnimationWatchFaceView_mc_19_8_28_8_if_true:
+_home_florian_Desktop_GarminVenu2PedroWatchFace_source_AnimationWatchFaceView_mc_19_56_23_8_start:
+[ "/home/florian/Desktop/GarminVenu2PedroWatchFace/source/AnimationWatchFaceView.mc" 20 12 ]
+        %tmp.6 = getm $.Toybox.System;
+        %tmp.7 = getv function %tmp.6 :println;
+        %tmp.8 = "onComplete: ";
+        %tmp.10 = getv ? :view;
+        %tmp.11 = getv %tmp.10 :playCount;
+        %tmp.12 = add %tmp.8 %tmp.11;
+        invoke %tmp.6 %tmp.7(%tmp.12);
+[ "/home/florian/Desktop/GarminVenu2PedroWatchFace/source/AnimationWatchFaceView.mc" 21 12 ]
+        %tmp.13 = getm $.Toybox.System;
+        %tmp.14 = getv function %tmp.13 :println;
+        %tmp.15 = "play: ";
+        %tmp.17 = getv ? :view;
+        %tmp.18 = getv %tmp.17 :playCount;
+        %tmp.19 = add %tmp.15 %tmp.18;
+        invoke %tmp.13 %tmp.14(%tmp.19);
+[ "/home/florian/Desktop/GarminVenu2PedroWatchFace/source/AnimationWatchFaceView.mc" 22 12 ]
+        %tmp.21 = getv ? :view;
+        %tmp.22 = getv function %tmp.21 :play;
+        invoke %tmp.21 %tmp.22();
+_home_florian_Desktop_GarminVenu2PedroWatchFace_source_AnimationWatchFaceView_mc_19_56_23_8_stop:
+        goto @_home_florian_Desktop_GarminVenu2PedroWatchFace_source_AnimationWatchFaceView_mc_19_8_28_8_if_end;
+_home_florian_Desktop_GarminVenu2PedroWatchFace_source_AnimationWatchFaceView_mc_19_8_28_8_if_false:
+[ "/home/florian/Desktop/GarminVenu2PedroWatchFace/source/AnimationWatchFaceView.mc" 23 15 ]
+_home_florian_Desktop_GarminVenu2PedroWatchFace_source_AnimationWatchFaceView_mc_23_15_28_8_if_stmt:
+        %tmp.24 = lgetv %event;
+        %tmp.25 = getm $.Toybox.WatchUi;
+        %tmp.26 = getv %tmp.25 :ANIMATION_EVENT_CANCELED;
+        %tmp.27 = eq %tmp.24 %tmp.26;
+        bf %tmp.27 @_home_florian_Desktop_GarminVenu2PedroWatchFace_source_AnimationWatchFaceView_mc_23_15_28_8_if_false;
+_home_florian_Desktop_GarminVenu2PedroWatchFace_source_AnimationWatchFaceView_mc_23_15_28_8_if_true:
+_home_florian_Desktop_GarminVenu2PedroWatchFace_source_AnimationWatchFaceView_mc_23_63_25_8_start:
+[ "/home/florian/Desktop/GarminVenu2PedroWatchFace/source/AnimationWatchFaceView.mc" 24 12 ]
+        %tmp.28 = getm $.Toybox.System;
+        %tmp.29 = getv function %tmp.28 :println;
+        %tmp.30 = "canceled";
+        invoke %tmp.28 %tmp.29(%tmp.30);
+_home_florian_Desktop_GarminVenu2PedroWatchFace_source_AnimationWatchFaceView_mc_23_63_25_8_stop:
+        goto @_home_florian_Desktop_GarminVenu2PedroWatchFace_source_AnimationWatchFaceView_mc_23_15_28_8_if_end;
+_home_florian_Desktop_GarminVenu2PedroWatchFace_source_AnimationWatchFaceView_mc_23_15_28_8_if_false:
+_home_florian_Desktop_GarminVenu2PedroWatchFace_source_AnimationWatchFaceView_mc_26_13_28_8_start:
+[ "/home/florian/Desktop/GarminVenu2PedroWatchFace/source/AnimationWatchFaceView.mc" 27 12 ]
+        %tmp.31 = getm $.Toybox.System;
+        %tmp.32 = getv function %tmp.31 :println;
+        %tmp.33 = "on unknown event";
+        invoke %tmp.31 %tmp.32(%tmp.33);
+_home_florian_Desktop_GarminVenu2PedroWatchFace_source_AnimationWatchFaceView_mc_26_13_28_8_stop:
+_home_florian_Desktop_GarminVenu2PedroWatchFace_source_AnimationWatchFaceView_mc_23_15_28_8_if_end:
+_home_florian_Desktop_GarminVenu2PedroWatchFace_source_AnimationWatchFaceView_mc_19_8_28_8_if_end:
+_home_florian_Desktop_GarminVenu2PedroWatchFace_source_AnimationWatchFaceView_mc_18_4_29_4_stop:
+    }
+}
+[ @file = "/home/florian/Desktop/GarminVenu2PedroWatchFace/source/AnimationWatchFaceView.mc"; @line = 32; ]
+class AnimationWatchFaceView extends WatchUi.WatchFace{
+    [ @file = "/home/florian/Desktop/GarminVenu2PedroWatchFace/source/AnimationWatchFaceView.mc"; @line = 32; ]
+    <init> {
+[ "/home/florian/Desktop/GarminVenu2PedroWatchFace/source/AnimationWatchFaceView.mc" 41 8 ]
+        %tmp.34 = getm $.Toybox.Graphics;
+        %tmp.35 = getv %tmp.34 :FONT_NUMBER_MEDIUM;
+        putv self :majorFont %tmp.35;
+[ "/home/florian/Desktop/GarminVenu2PedroWatchFace/source/AnimationWatchFaceView.mc" 42 8 ]
+        %tmp.36 = getm $.Toybox.Graphics;
+        %tmp.37 = getv %tmp.36 :FONT_NUMBER_MILD;
+        putv self :minorFont %tmp.37;
+    }
+    [ @file = "/home/florian/Desktop/GarminVenu2PedroWatchFace/source/AnimationWatchFaceView.mc"; @line = 32; ]
+    static
+    <init> {
+    }
+    [ @file = "/home/florian/Desktop/GarminVenu2PedroWatchFace/source/AnimationWatchFaceView.mc"; @line = 34; @position = 8; ]
+    var playCount = 0;
+    [ @file = "/home/florian/Desktop/GarminVenu2PedroWatchFace/source/AnimationWatchFaceView.mc"; @line = 35; @position = 8; ]
+    var backgroundAnimationLayer = null;
+    [ @file = "/home/florian/Desktop/GarminVenu2PedroWatchFace/source/AnimationWatchFaceView.mc"; @line = 36; @position = 8; ]
+    var drawLayer = null;
+    [ @file = "/home/florian/Desktop/GarminVenu2PedroWatchFace/source/AnimationWatchFaceView.mc"; @line = 38; @position = 8; ]
+    var drawLayerArea = null;
+    [ @file = "/home/florian/Desktop/GarminVenu2PedroWatchFace/source/AnimationWatchFaceView.mc"; @line = 39; @position = 8; ]
+    var partialUpdateClip = null;
+    [ @file = "/home/florian/Desktop/GarminVenu2PedroWatchFace/source/AnimationWatchFaceView.mc"; @line = 41; @position = 8; ]
+    var majorFont;
+    [ @file = "/home/florian/Desktop/GarminVenu2PedroWatchFace/source/AnimationWatchFaceView.mc"; @line = 42; @position = 8; ]
+    var minorFont;
+    [ @file = "/home/florian/Desktop/GarminVenu2PedroWatchFace/source/AnimationWatchFaceView.mc"; @line = 43; @position = 8; ]
+    var gap = 10;
+    [ @file = "/home/florian/Desktop/GarminVenu2PedroWatchFace/source/AnimationWatchFaceView.mc"; @line = 45; @position = 8; ]
+    var majorTextOffsetX = 0;
+    [ @file = "/home/florian/Desktop/GarminVenu2PedroWatchFace/source/AnimationWatchFaceView.mc"; @line = 46; @position = 8; ]
+    var majorTextOffsetY = 0;
+    [ @file = "/home/florian/Desktop/GarminVenu2PedroWatchFace/source/AnimationWatchFaceView.mc"; @line = 48; @position = 8; ]
+    var minorTextOffsetX = 0;
+    [ @file = "/home/florian/Desktop/GarminVenu2PedroWatchFace/source/AnimationWatchFaceView.mc"; @line = 49; @position = 8; ]
+    var minorTextOffsetY = 0;
+    [ @file = "/home/florian/Desktop/GarminVenu2PedroWatchFace/source/AnimationWatchFaceView.mc"; @line = 51; @position = 8; ]
+    var rand_base = 0x7FFFFFFF;
+    [ @file = "/home/florian/Desktop/GarminVenu2PedroWatchFace/source/AnimationWatchFaceView.mc"; @line = 53; ]
+    function initialize() as Void {
+_home_florian_Desktop_GarminVenu2PedroWatchFace_source_AnimationWatchFaceView_mc_53_26_55_4_start:
+[ "/home/florian/Desktop/GarminVenu2PedroWatchFace/source/AnimationWatchFaceView.mc" 54 8 ]
+        %tmp.2 = getv ? :WatchFace;
+        %tmp.3 = getv function %tmp.2 :initialize;
+        invoke %tmp.2 %tmp.3();
+_home_florian_Desktop_GarminVenu2PedroWatchFace_source_AnimationWatchFaceView_mc_53_26_55_4_stop:
+    }
+    [ @file = "/home/florian/Desktop/GarminVenu2PedroWatchFace/source/AnimationWatchFaceView.mc"; @line = 58; ]
+    function onLayout(dc) {
+_home_florian_Desktop_GarminVenu2PedroWatchFace_source_AnimationWatchFaceView_mc_58_26_111_4_start:
+[ "/home/florian/Desktop/GarminVenu2PedroWatchFace/source/AnimationWatchFaceView.mc" 59 8 ]
+        %tmp.1 = self;
+        %tmp.2 = getv function %tmp.1 :setLayout;
+        %tmp.4 = getv ? :Rez;
+        %tmp.5 = getv %tmp.4 :Layouts;
+        %tmp.6 = getv function %tmp.5 :WatchFace;
+        %tmp.8 = lgetv %dc;
+        %tmp.9 = invoke %tmp.5 %tmp.6(%tmp.8);
+        invoke %tmp.1 %tmp.2(%tmp.9);
+[ "/home/florian/Desktop/GarminVenu2PedroWatchFace/source/AnimationWatchFaceView.mc" 61 8 ]
+        %tmp.10 = lgetv %dc;
+        %tmp.11 = getv function %tmp.10 :setColor;
+        %tmp.12 = getm $.Toybox.Graphics;
+        %tmp.13 = getv %tmp.12 :COLOR_BLACK;
+        %tmp.14 = getm $.Toybox.Graphics;
+        %tmp.15 = getv %tmp.14 :COLOR_BLACK;
+        invoke %tmp.10 %tmp.11(%tmp.13, %tmp.15);
+[ "/home/florian/Desktop/GarminVenu2PedroWatchFace/source/AnimationWatchFaceView.mc" 62 8 ]
+        %tmp.16 = lgetv %dc;
+        %tmp.17 = getv function %tmp.16 :clear;
+        invoke %tmp.16 %tmp.17();
+[ "/home/florian/Desktop/GarminVenu2PedroWatchFace/source/AnimationWatchFaceView.mc" 64 8 ]
+        [ "_home_florian_Desktop_GarminVenu2PedroWatchFace_source_AnimationWatchFaceView_mc_58_26_111_4_start" "_home_florian_Desktop_GarminVenu2PedroWatchFace_source_AnimationWatchFaceView_mc_58_26_111_4_stop" ]
+        %settings.1 = local;
+        %tmp.18 = getm $.Toybox.System;
+        %tmp.19 = getv function %tmp.18 :getDeviceSettings;
+        %tmp.20 = invoke %tmp.18 %tmp.19();
+        lputv %settings.1 %tmp.20;
+[ "/home/florian/Desktop/GarminVenu2PedroWatchFace/source/AnimationWatchFaceView.mc" 65 8 ]
+        [ "_home_florian_Desktop_GarminVenu2PedroWatchFace_source_AnimationWatchFaceView_mc_58_26_111_4_start" "_home_florian_Desktop_GarminVenu2PedroWatchFace_source_AnimationWatchFaceView_mc_58_26_111_4_stop" ]
+        %majorFontWidth.2 = local;
+        %tmp.21 = getm $.Toybox.Graphics;
+        %tmp.22 = getv function %tmp.21 :getFontHeight;
+        %tmp.24 = getv ? :majorFont;
+        %tmp.25 = invoke %tmp.21 %tmp.22(%tmp.24);
+        %tmp.26 = 2;
+        %tmp.27 = mul %tmp.25 %tmp.26;
+        %tmp.28 = 3;
+        %tmp.29 = div %tmp.27 %tmp.28;
+        lputv %majorFontWidth.2 %tmp.29;
+[ "/home/florian/Desktop/GarminVenu2PedroWatchFace/source/AnimationWatchFaceView.mc" 66 8 ]
+        [ "_home_florian_Desktop_GarminVenu2PedroWatchFace_source_AnimationWatchFaceView_mc_58_26_111_4_start" "_home_florian_Desktop_GarminVenu2PedroWatchFace_source_AnimationWatchFaceView_mc_58_26_111_4_stop" ]
+        %majorFontHeight.3 = local;
+        %tmp.30 = getm $.Toybox.Graphics;
+        %tmp.31 = getv function %tmp.30 :getFontHeight;
+        %tmp.33 = getv ? :majorFont;
+        %tmp.34 = invoke %tmp.30 %tmp.31(%tmp.33);
+        lputv %majorFontHeight.3 %tmp.34;
+[ "/home/florian/Desktop/GarminVenu2PedroWatchFace/source/AnimationWatchFaceView.mc" 67 8 ]
+        [ "_home_florian_Desktop_GarminVenu2PedroWatchFace_source_AnimationWatchFaceView_mc_58_26_111_4_start" "_home_florian_Desktop_GarminVenu2PedroWatchFace_source_AnimationWatchFaceView_mc_58_26_111_4_stop" ]
+        %minorFontWidth.4 = local;
+        %tmp.35 = getm $.Toybox.Graphics;
+        %tmp.36 = getv function %tmp.35 :getFontHeight;
+        %tmp.38 = getv ? :minorFont;
+        %tmp.39 = invoke %tmp.35 %tmp.36(%tmp.38);
+        %tmp.40 = 2;
+        %tmp.41 = mul %tmp.39 %tmp.40;
+        %tmp.42 = 3;
+        %tmp.43 = div %tmp.41 %tmp.42;
+        lputv %minorFontWidth.4 %tmp.43;
+[ "/home/florian/Desktop/GarminVenu2PedroWatchFace/source/AnimationWatchFaceView.mc" 68 8 ]
+        [ "_home_florian_Desktop_GarminVenu2PedroWatchFace_source_AnimationWatchFaceView_mc_58_26_111_4_start" "_home_florian_Desktop_GarminVenu2PedroWatchFace_source_AnimationWatchFaceView_mc_58_26_111_4_stop" ]
+        %minorFontHeight.5 = local;
+        %tmp.44 = getm $.Toybox.Graphics;
+        %tmp.45 = getv function %tmp.44 :getFontHeight;
+        %tmp.47 = getv ? :minorFont;
+        %tmp.48 = invoke %tmp.44 %tmp.45(%tmp.47);
+        lputv %minorFontHeight.5 %tmp.48;
+[ "/home/florian/Desktop/GarminVenu2PedroWatchFace/source/AnimationWatchFaceView.mc" 70 8 ]
+        [ "_home_florian_Desktop_GarminVenu2PedroWatchFace_source_AnimationWatchFaceView_mc_58_26_111_4_start" "_home_florian_Desktop_GarminVenu2PedroWatchFace_source_AnimationWatchFaceView_mc_58_26_111_4_stop" ]
+        %drawLayerWidth.6 = local;
+        %tmp.50 = lgetv %majorFontWidth.2;
+        %tmp.51 = 5;
+        %tmp.52 = mul %tmp.50 %tmp.51;
+        lputv %drawLayerWidth.6 %tmp.52;
+[ "/home/florian/Desktop/GarminVenu2PedroWatchFace/source/AnimationWatchFaceView.mc" 71 8 ]
+        [ "_home_florian_Desktop_GarminVenu2PedroWatchFace_source_AnimationWatchFaceView_mc_58_26_111_4_start" "_home_florian_Desktop_GarminVenu2PedroWatchFace_source_AnimationWatchFaceView_mc_58_26_111_4_stop" ]
+        %drawLayerHeight.7 = local;
+        %tmp.54 = lgetv %majorFontHeight.3;
+        %tmp.56 = getv ? :gap;
+        %tmp.57 = add %tmp.54 %tmp.56;
+        %tmp.59 = lgetv %minorFontHeight.5;
+        %tmp.60 = add %tmp.57 %tmp.59;
+        lputv %drawLayerHeight.7 %tmp.60;
+[ "/home/florian/Desktop/GarminVenu2PedroWatchFace/source/AnimationWatchFaceView.mc" 73 8 ]
+        [ "_home_florian_Desktop_GarminVenu2PedroWatchFace_source_AnimationWatchFaceView_mc_58_26_111_4_start" "_home_florian_Desktop_GarminVenu2PedroWatchFace_source_AnimationWatchFaceView_mc_58_26_111_4_stop" ]
+        %partialUpdateWidth.8 = local;
+        %tmp.62 = lgetv %minorFontWidth.4;
+        %tmp.63 = 2;
+        %tmp.64 = mul %tmp.62 %tmp.63;
+        lputv %partialUpdateWidth.8 %tmp.64;
+[ "/home/florian/Desktop/GarminVenu2PedroWatchFace/source/AnimationWatchFaceView.mc" 74 8 ]
+        [ "_home_florian_Desktop_GarminVenu2PedroWatchFace_source_AnimationWatchFaceView_mc_58_26_111_4_start" "_home_florian_Desktop_GarminVenu2PedroWatchFace_source_AnimationWatchFaceView_mc_58_26_111_4_stop" ]
+        %partialUpdateHeight.9 = local;
+        %tmp.66 = lgetv %minorFontHeight.5;
+        lputv %partialUpdateHeight.9 %tmp.66;
+[ "/home/florian/Desktop/GarminVenu2PedroWatchFace/source/AnimationWatchFaceView.mc" 76 8 ]
+        %tmp.67 = newa 4;
+        %tmp.68 = lgetv %settings.1;
+        %tmp.69 = getv %tmp.68 :screenWidth;
+        %tmp.71 = lgetv %drawLayerWidth.6;
+        %tmp.72 = sub %tmp.69 %tmp.71;
+        %tmp.73 = 2;
+        %tmp.74 = div %tmp.72 %tmp.73;
+        %tmp.75 = dup %tmp.67;
+        %tmp.76 = aputv %tmp.75 0 %tmp.74;
+        %tmp.77 = lgetv %settings.1;
+        %tmp.78 = getv %tmp.77 :screenHeight;
+        %tmp.79 = 3;
+        %tmp.80 = div %tmp.78 %tmp.79;
+        %tmp.81 = dup %tmp.76;
+        %tmp.82 = aputv %tmp.81 1 %tmp.80;
+        %tmp.84 = lgetv %drawLayerWidth.6;
+        %tmp.85 = dup %tmp.82;
+        %tmp.86 = aputv %tmp.85 2 %tmp.84;
+        %tmp.88 = lgetv %drawLayerHeight.7;
+        %tmp.89 = dup %tmp.86;
+        %tmp.90 = aputv %tmp.89 3 %tmp.88;
+        putv self :drawLayerArea %tmp.90;
+[ "/home/florian/Desktop/GarminVenu2PedroWatchFace/source/AnimationWatchFaceView.mc" 84 8 ]
+        %tmp.92 = getv ? :drawLayerArea;
+        %tmp.93 = 2;
+        %tmp.94 = agetv %tmp.92 %tmp.93;
+        %tmp.95 = 2;
+        %tmp.96 = div %tmp.94 %tmp.95;
+        putv self :majorTextOffsetX %tmp.96;
+[ "/home/florian/Desktop/GarminVenu2PedroWatchFace/source/AnimationWatchFaceView.mc" 85 8 ]
+        %tmp.97 = 0;
+        putv self :majorTextOffsetY %tmp.97;
+[ "/home/florian/Desktop/GarminVenu2PedroWatchFace/source/AnimationWatchFaceView.mc" 86 8 ]
+        %tmp.99 = getv ? :majorTextOffsetX;
+        putv self :minorTextOffsetX %tmp.99;
+[ "/home/florian/Desktop/GarminVenu2PedroWatchFace/source/AnimationWatchFaceView.mc" 87 8 ]
+        %tmp.101 = getv ? :majorTextOffsetY;
+        %tmp.103 = lgetv %majorFontHeight.3;
+        %tmp.104 = add %tmp.101 %tmp.103;
+        %tmp.106 = getv ? :gap;
+        %tmp.107 = add %tmp.104 %tmp.106;
+        putv self :minorTextOffsetY %tmp.107;
+[ "/home/florian/Desktop/GarminVenu2PedroWatchFace/source/AnimationWatchFaceView.mc" 90 8 ]
+        %tmp.108 = newa 4;
+        %tmp.110 = getv ? :drawLayerArea;
+        %tmp.111 = 2;
+        %tmp.112 = agetv %tmp.110 %tmp.111;
+        %tmp.114 = lgetv %partialUpdateWidth.8;
+        %tmp.115 = sub %tmp.112 %tmp.114;
+        %tmp.116 = 2;
+        %tmp.117 = div %tmp.115 %tmp.116;
+        %tmp.118 = dup %tmp.108;
+        %tmp.119 = aputv %tmp.118 0 %tmp.117;
+        %tmp.121 = getv ? :minorTextOffsetY;
+        %tmp.122 = dup %tmp.119;
+        %tmp.123 = aputv %tmp.122 1 %tmp.121;
+        %tmp.125 = lgetv %partialUpdateWidth.8;
+        %tmp.126 = dup %tmp.123;
+        %tmp.127 = aputv %tmp.126 2 %tmp.125;
+        %tmp.129 = lgetv %partialUpdateHeight.9;
+        %tmp.130 = dup %tmp.127;
+        %tmp.131 = aputv %tmp.130 3 %tmp.129;
+        putv self :partialUpdateClip %tmp.131;
+[ "/home/florian/Desktop/GarminVenu2PedroWatchFace/source/AnimationWatchFaceView.mc" 98 8 ]
+        %tmp.133 = getv ? :Math;
+        %tmp.134 = getv function %tmp.133 :srand;
+        %tmp.135 = 0;
+        invoke %tmp.133 %tmp.134(%tmp.135);
+[ "/home/florian/Desktop/GarminVenu2PedroWatchFace/source/AnimationWatchFaceView.mc" 101 8 ]
+        %tmp.138 = getm $.Toybox.WatchUi;
+        %tmp.139 = getv function ? %tmp.138 :AnimationLayer;
+        %tmp.141 = getv ? :Rez;
+        %tmp.142 = getv %tmp.141 :Drawables;
+        %tmp.143 = getv %tmp.142 :backgroundmonkey;
+        %tmp.144 = null;
+        %tmp.136 = newc %tmp.139 (%tmp.143, %tmp.144);
+        putv self :backgroundAnimationLayer %tmp.136;
+[ "/home/florian/Desktop/GarminVenu2PedroWatchFace/source/AnimationWatchFaceView.mc" 102 8 ]
+        %tmp.147 = getm $.Toybox.WatchUi;
+        %tmp.148 = getv function ? %tmp.147 :Layer;
+        %tmp.149 = newd 4;
+        %tmp.151 = const :locX;
+        %tmp.153 = getv ? :drawLayerArea;
+        %tmp.154 = 0;
+        %tmp.155 = agetv %tmp.153 %tmp.154;
+        %tmp.156 = dup %tmp.149;
+        %tmp.157 = aputv %tmp.156 %tmp.151 %tmp.155;
+        %tmp.159 = const :locY;
+        %tmp.161 = getv ? :drawLayerArea;
+        %tmp.162 = 1;
+        %tmp.163 = agetv %tmp.161 %tmp.162;
+        %tmp.164 = dup %tmp.157;
+        %tmp.165 = aputv %tmp.164 %tmp.159 %tmp.163;
+        %tmp.167 = const :width;
+        %tmp.169 = getv ? :drawLayerArea;
+        %tmp.170 = 2;
+        %tmp.171 = agetv %tmp.169 %tmp.170;
+        %tmp.172 = dup %tmp.165;
+        %tmp.173 = aputv %tmp.172 %tmp.167 %tmp.171;
+        %tmp.175 = const :height;
+        %tmp.177 = getv ? :drawLayerArea;
+        %tmp.178 = 3;
+        %tmp.179 = agetv %tmp.177 %tmp.178;
+        %tmp.180 = dup %tmp.173;
+        %tmp.181 = aputv %tmp.180 %tmp.175 %tmp.179;
+        %tmp.145 = newc %tmp.148 (%tmp.181);
+        putv self :drawLayer %tmp.145;
+[ "/home/florian/Desktop/GarminVenu2PedroWatchFace/source/AnimationWatchFaceView.mc" 109 8 ]
+        %tmp.182 = self;
+        %tmp.183 = getv function %tmp.182 :addLayer;
+        %tmp.185 = getv ? :backgroundAnimationLayer;
+        invoke %tmp.182 %tmp.183(%tmp.185);
+[ "/home/florian/Desktop/GarminVenu2PedroWatchFace/source/AnimationWatchFaceView.mc" 110 8 ]
+        %tmp.186 = self;
+        %tmp.187 = getv function %tmp.186 :addLayer;
+        %tmp.189 = getv ? :drawLayer;
+        invoke %tmp.186 %tmp.187(%tmp.189);
+_home_florian_Desktop_GarminVenu2PedroWatchFace_source_AnimationWatchFaceView_mc_58_26_111_4_stop:
+    }
+    [ @file = "/home/florian/Desktop/GarminVenu2PedroWatchFace/source/AnimationWatchFaceView.mc"; @line = 116; ]
+    function onShow() {
+_home_florian_Desktop_GarminVenu2PedroWatchFace_source_AnimationWatchFaceView_mc_116_22_120_4_start:
+[ "/home/florian/Desktop/GarminVenu2PedroWatchFace/source/AnimationWatchFaceView.mc" 117 8 ]
+        %tmp.1 = 0;
+        putv self :playCount %tmp.1;
+[ "/home/florian/Desktop/GarminVenu2PedroWatchFace/source/AnimationWatchFaceView.mc" 119 8 ]
+        %tmp.2 = self;
+        %tmp.3 = getv function %tmp.2 :play;
+        invoke %tmp.2 %tmp.3();
+_home_florian_Desktop_GarminVenu2PedroWatchFace_source_AnimationWatchFaceView_mc_116_22_120_4_stop:
+    }
+    [ @file = "/home/florian/Desktop/GarminVenu2PedroWatchFace/source/AnimationWatchFaceView.mc"; @line = 122; ]
+    function play() {
+_home_florian_Desktop_GarminVenu2PedroWatchFace_source_AnimationWatchFaceView_mc_122_20_126_4_start:
+[ "/home/florian/Desktop/GarminVenu2PedroWatchFace/source/AnimationWatchFaceView.mc" 125 12 ]
+        %tmp.2 = getv ? :backgroundAnimationLayer;
+        %tmp.3 = getv function %tmp.2 :play;
+        %tmp.4 = newd 1;
+        %tmp.6 = const :delegate;
+        %tmp.10 = getv ? :AnimationDelegate;
+        %tmp.12 = self;
+        %tmp.7 = newc %tmp.10 (%tmp.12);
+        %tmp.13 = dup %tmp.4;
+        %tmp.14 = aputv %tmp.13 %tmp.6 %tmp.7;
+        invoke %tmp.2 %tmp.3(%tmp.14);
+_home_florian_Desktop_GarminVenu2PedroWatchFace_source_AnimationWatchFaceView_mc_122_20_126_4_stop:
+    }
+    [ @file = "/home/florian/Desktop/GarminVenu2PedroWatchFace/source/AnimationWatchFaceView.mc"; @line = 128; ]
+    function onUpdate(dc) {
+_home_florian_Desktop_GarminVenu2PedroWatchFace_source_AnimationWatchFaceView_mc_128_26_131_4_start:
+[ "/home/florian/Desktop/GarminVenu2PedroWatchFace/source/AnimationWatchFaceView.mc" 130 8 ]
+        %tmp.1 = self;
+        %tmp.2 = getv function %tmp.1 :updateWatchOverlay;
+        %tmp.3 = true;
+        invoke %tmp.1 %tmp.2(%tmp.3);
+_home_florian_Desktop_GarminVenu2PedroWatchFace_source_AnimationWatchFaceView_mc_128_26_131_4_stop:
+    }
+    [ @file = "/home/florian/Desktop/GarminVenu2PedroWatchFace/source/AnimationWatchFaceView.mc"; @line = 133; ]
+    function onPartialUpdate(dc) {
+_home_florian_Desktop_GarminVenu2PedroWatchFace_source_AnimationWatchFaceView_mc_133_33_136_4_start:
+[ "/home/florian/Desktop/GarminVenu2PedroWatchFace/source/AnimationWatchFaceView.mc" 135 8 ]
+        %tmp.1 = self;
+        %tmp.2 = getv function %tmp.1 :updateWatchOverlay;
+        %tmp.3 = false;
+        invoke %tmp.1 %tmp.2(%tmp.3);
+_home_florian_Desktop_GarminVenu2PedroWatchFace_source_AnimationWatchFaceView_mc_133_33_136_4_stop:
+    }
+    [ @file = "/home/florian/Desktop/GarminVenu2PedroWatchFace/source/AnimationWatchFaceView.mc"; @line = 138; ]
+    function updateWatchOverlay(isFullUpdate) {
+_home_florian_Desktop_GarminVenu2PedroWatchFace_source_AnimationWatchFaceView_mc_138_46_175_4_start:
+[ "/home/florian/Desktop/GarminVenu2PedroWatchFace/source/AnimationWatchFaceView.mc" 139 8 ]
+_home_florian_Desktop_GarminVenu2PedroWatchFace_source_AnimationWatchFaceView_mc_139_8_141_8_if_stmt:
+        %tmp.2 = getv ? :drawLayer;
+        %tmp.3 = null;
+        %tmp.4 = eq %tmp.2 %tmp.3;
+        bf %tmp.4 @_home_florian_Desktop_GarminVenu2PedroWatchFace_source_AnimationWatchFaceView_mc_139_8_141_8_if_end;
+_home_florian_Desktop_GarminVenu2PedroWatchFace_source_AnimationWatchFaceView_mc_139_8_141_8_if_true:
+_home_florian_Desktop_GarminVenu2PedroWatchFace_source_AnimationWatchFaceView_mc_139_32_141_8_start:
+[ "/home/florian/Desktop/GarminVenu2PedroWatchFace/source/AnimationWatchFaceView.mc" 140 12 ]
+        ret ?;
+_home_florian_Desktop_GarminVenu2PedroWatchFace_source_AnimationWatchFaceView_mc_139_32_141_8_stop:
+        goto @_home_florian_Desktop_GarminVenu2PedroWatchFace_source_AnimationWatchFaceView_mc_139_8_141_8_if_end;
+_home_florian_Desktop_GarminVenu2PedroWatchFace_source_AnimationWatchFaceView_mc_139_8_141_8_if_end:
+[ "/home/florian/Desktop/GarminVenu2PedroWatchFace/source/AnimationWatchFaceView.mc" 142 8 ]
+        [ "_home_florian_Desktop_GarminVenu2PedroWatchFace_source_AnimationWatchFaceView_mc_138_46_175_4_start" "_home_florian_Desktop_GarminVenu2PedroWatchFace_source_AnimationWatchFaceView_mc_138_46_175_4_stop" ]
+        %drawLayerDc.1 = local;
+        %tmp.6 = getv ? :drawLayer;
+        %tmp.7 = getv function %tmp.6 :getDc;
+        %tmp.8 = invoke %tmp.6 %tmp.7();
+        lputv %drawLayerDc.1 %tmp.8;
+[ "/home/florian/Desktop/GarminVenu2PedroWatchFace/source/AnimationWatchFaceView.mc" 143 8 ]
+_home_florian_Desktop_GarminVenu2PedroWatchFace_source_AnimationWatchFaceView_mc_143_8_146_8_if_stmt:
+        %tmp.10 = lgetv %drawLayerDc.1;
+        %tmp.11 = null;
+        %tmp.12 = eq %tmp.10 %tmp.11;
+        bf %tmp.12 @_home_florian_Desktop_GarminVenu2PedroWatchFace_source_AnimationWatchFaceView_mc_143_8_146_8_if_end;
+_home_florian_Desktop_GarminVenu2PedroWatchFace_source_AnimationWatchFaceView_mc_143_8_146_8_if_true:
+_home_florian_Desktop_GarminVenu2PedroWatchFace_source_AnimationWatchFaceView_mc_143_34_146_8_start:
+[ "/home/florian/Desktop/GarminVenu2PedroWatchFace/source/AnimationWatchFaceView.mc" 145 12 ]
+        ret ?;
+_home_florian_Desktop_GarminVenu2PedroWatchFace_source_AnimationWatchFaceView_mc_143_34_146_8_stop:
+        goto @_home_florian_Desktop_GarminVenu2PedroWatchFace_source_AnimationWatchFaceView_mc_143_8_146_8_if_end;
+_home_florian_Desktop_GarminVenu2PedroWatchFace_source_AnimationWatchFaceView_mc_143_8_146_8_if_end:
+[ "/home/florian/Desktop/GarminVenu2PedroWatchFace/source/AnimationWatchFaceView.mc" 149 8 ]
+        [ "_home_florian_Desktop_GarminVenu2PedroWatchFace_source_AnimationWatchFaceView_mc_138_46_175_4_start" "_home_florian_Desktop_GarminVenu2PedroWatchFace_source_AnimationWatchFaceView_mc_138_46_175_4_stop" ]
+        %clockTime.2 = local;
+        %tmp.13 = getm $.Toybox.System;
+        %tmp.14 = getv function %tmp.13 :getClockTime;
+        %tmp.15 = invoke %tmp.13 %tmp.14();
+        lputv %clockTime.2 %tmp.15;
+[ "/home/florian/Desktop/GarminVenu2PedroWatchFace/source/AnimationWatchFaceView.mc" 150 8 ]
+        [ "_home_florian_Desktop_GarminVenu2PedroWatchFace_source_AnimationWatchFaceView_mc_138_46_175_4_start" "_home_florian_Desktop_GarminVenu2PedroWatchFace_source_AnimationWatchFaceView_mc_138_46_175_4_stop" ]
+        %hourMinString.3 = local;
+        %tmp.16 = getm $.Toybox.Lang;
+        %tmp.17 = getv function %tmp.16 :format;
+        %tmp.18 = "$1$:$2$";
+        %tmp.19 = newa 2;
+        %tmp.20 = lgetv %clockTime.2;
+        %tmp.21 = getv %tmp.20 :hour;
+        %tmp.22 = dup %tmp.19;
+        %tmp.23 = aputv %tmp.22 0 %tmp.21;
+        %tmp.24 = lgetv %clockTime.2;
+        %tmp.25 = getv %tmp.24 :min;
+        %tmp.26 = getv function %tmp.25 :format;
+        %tmp.27 = "%02d";
+        %tmp.28 = invoke %tmp.25 %tmp.26(%tmp.27);
+        %tmp.29 = dup %tmp.23;
+        %tmp.30 = aputv %tmp.29 1 %tmp.28;
+        %tmp.31 = invoke %tmp.16 %tmp.17(%tmp.18, %tmp.30);
+        lputv %hourMinString.3 %tmp.31;
+[ "/home/florian/Desktop/GarminVenu2PedroWatchFace/source/AnimationWatchFaceView.mc" 151 8 ]
+        [ "_home_florian_Desktop_GarminVenu2PedroWatchFace_source_AnimationWatchFaceView_mc_138_46_175_4_start" "_home_florian_Desktop_GarminVenu2PedroWatchFace_source_AnimationWatchFaceView_mc_138_46_175_4_stop" ]
+        %secString.4 = local;
+        %tmp.32 = getm $.Toybox.Lang;
+        %tmp.33 = getv function %tmp.32 :format;
+        %tmp.34 = "$1$";
+        %tmp.35 = newa 1;
+        %tmp.36 = lgetv %clockTime.2;
+        %tmp.37 = getv %tmp.36 :sec;
+        %tmp.38 = getv function %tmp.37 :format;
+        %tmp.39 = "%02d";
+        %tmp.40 = invoke %tmp.37 %tmp.38(%tmp.39);
+        %tmp.41 = dup %tmp.35;
+        %tmp.42 = aputv %tmp.41 0 %tmp.40;
+        %tmp.43 = invoke %tmp.32 %tmp.33(%tmp.34, %tmp.42);
+        lputv %secString.4 %tmp.43;
+[ "/home/florian/Desktop/GarminVenu2PedroWatchFace/source/AnimationWatchFaceView.mc" 153 8 ]
+_home_florian_Desktop_GarminVenu2PedroWatchFace_source_AnimationWatchFaceView_mc_153_8_163_8_if_stmt:
+        %tmp.45 = lgetv %isFullUpdate;
+        bf %tmp.45 @_home_florian_Desktop_GarminVenu2PedroWatchFace_source_AnimationWatchFaceView_mc_153_8_163_8_if_false;
+_home_florian_Desktop_GarminVenu2PedroWatchFace_source_AnimationWatchFaceView_mc_153_8_163_8_if_true:
+_home_florian_Desktop_GarminVenu2PedroWatchFace_source_AnimationWatchFaceView_mc_153_27_156_8_start:
+[ "/home/florian/Desktop/GarminVenu2PedroWatchFace/source/AnimationWatchFaceView.mc" 155 12 ]
+        %tmp.46 = lgetv %drawLayerDc.1;
+        %tmp.47 = getv function %tmp.46 :clearClip;
+        invoke %tmp.46 %tmp.47();
+_home_florian_Desktop_GarminVenu2PedroWatchFace_source_AnimationWatchFaceView_mc_153_27_156_8_stop:
+        goto @_home_florian_Desktop_GarminVenu2PedroWatchFace_source_AnimationWatchFaceView_mc_153_8_163_8_if_end;
+_home_florian_Desktop_GarminVenu2PedroWatchFace_source_AnimationWatchFaceView_mc_153_8_163_8_if_false:
+_home_florian_Desktop_GarminVenu2PedroWatchFace_source_AnimationWatchFaceView_mc_156_15_163_8_start:
+[ "/home/florian/Desktop/GarminVenu2PedroWatchFace/source/AnimationWatchFaceView.mc" 158 12 ]
+        %tmp.48 = lgetv %drawLayerDc.1;
+        %tmp.49 = getv function %tmp.48 :setClip;
+        %tmp.51 = getv ? :partialUpdateClip;
+        %tmp.52 = 0;
+        %tmp.53 = agetv %tmp.51 %tmp.52;
+        %tmp.55 = getv ? :partialUpdateClip;
+        %tmp.56 = 1;
+        %tmp.57 = agetv %tmp.55 %tmp.56;
+        %tmp.59 = getv ? :partialUpdateClip;
+        %tmp.60 = 2;
+        %tmp.61 = agetv %tmp.59 %tmp.60;
+        %tmp.63 = getv ? :partialUpdateClip;
+        %tmp.64 = 3;
+        %tmp.65 = agetv %tmp.63 %tmp.64;
+        invoke %tmp.48 %tmp.49(%tmp.53, %tmp.57, %tmp.61, %tmp.65);
+_home_florian_Desktop_GarminVenu2PedroWatchFace_source_AnimationWatchFaceView_mc_156_15_163_8_stop:
+_home_florian_Desktop_GarminVenu2PedroWatchFace_source_AnimationWatchFaceView_mc_153_8_163_8_if_end:
+[ "/home/florian/Desktop/GarminVenu2PedroWatchFace/source/AnimationWatchFaceView.mc" 167 8 ]
+        %tmp.66 = lgetv %drawLayerDc.1;
+        %tmp.67 = getv function %tmp.66 :setColor;
+        %tmp.68 = getm $.Toybox.Graphics;
+        %tmp.69 = getv %tmp.68 :COLOR_WHITE;
+        %tmp.70 = getm $.Toybox.Graphics;
+        %tmp.71 = getv %tmp.70 :COLOR_TRANSPARENT;
+        invoke %tmp.66 %tmp.67(%tmp.69, %tmp.71);
+[ "/home/florian/Desktop/GarminVenu2PedroWatchFace/source/AnimationWatchFaceView.mc" 168 8 ]
+        %tmp.72 = lgetv %drawLayerDc.1;
+        %tmp.73 = getv function %tmp.72 :clear;
+        invoke %tmp.72 %tmp.73();
+[ "/home/florian/Desktop/GarminVenu2PedroWatchFace/source/AnimationWatchFaceView.mc" 171 8 ]
+_home_florian_Desktop_GarminVenu2PedroWatchFace_source_AnimationWatchFaceView_mc_171_8_174_8_if_stmt:
+        %tmp.75 = lgetv %isFullUpdate;
+        bf %tmp.75 @_home_florian_Desktop_GarminVenu2PedroWatchFace_source_AnimationWatchFaceView_mc_171_8_174_8_if_end;
+_home_florian_Desktop_GarminVenu2PedroWatchFace_source_AnimationWatchFaceView_mc_171_8_174_8_if_true:
+_home_florian_Desktop_GarminVenu2PedroWatchFace_source_AnimationWatchFaceView_mc_171_27_174_8_start:
+[ "/home/florian/Desktop/GarminVenu2PedroWatchFace/source/AnimationWatchFaceView.mc" 173 12 ]
+        %tmp.76 = lgetv %drawLayerDc.1;
+        %tmp.77 = getv function %tmp.76 :drawText;
+        %tmp.79 = getv ? :majorTextOffsetX;
+        %tmp.81 = getv ? :majorTextOffsetY;
+        %tmp.83 = getv ? :majorFont;
+        %tmp.85 = lgetv %hourMinString.3;
+        %tmp.86 = getm $.Toybox.Graphics;
+        %tmp.87 = getv %tmp.86 :TEXT_JUSTIFY_CENTER;
+        invoke %tmp.76 %tmp.77(%tmp.79, %tmp.81, %tmp.83, %tmp.85, %tmp.87);
+_home_florian_Desktop_GarminVenu2PedroWatchFace_source_AnimationWatchFaceView_mc_171_27_174_8_stop:
+        goto @_home_florian_Desktop_GarminVenu2PedroWatchFace_source_AnimationWatchFaceView_mc_171_8_174_8_if_end;
+_home_florian_Desktop_GarminVenu2PedroWatchFace_source_AnimationWatchFaceView_mc_171_8_174_8_if_end:
+_home_florian_Desktop_GarminVenu2PedroWatchFace_source_AnimationWatchFaceView_mc_138_46_175_4_stop:
+    }
+    [ @file = "/home/florian/Desktop/GarminVenu2PedroWatchFace/source/AnimationWatchFaceView.mc"; @line = 177; ]
+    function onHide() {
+_home_florian_Desktop_GarminVenu2PedroWatchFace_source_AnimationWatchFaceView_mc_177_22_180_4_start:
+[ "/home/florian/Desktop/GarminVenu2PedroWatchFace/source/AnimationWatchFaceView.mc" 179 8 ]
+        %tmp.2 = getv ? :View;
+        %tmp.3 = getv function %tmp.2 :onHide;
+        invoke %tmp.2 %tmp.3();
+_home_florian_Desktop_GarminVenu2PedroWatchFace_source_AnimationWatchFaceView_mc_177_22_180_4_stop:
+    }
+    [ @file = "/home/florian/Desktop/GarminVenu2PedroWatchFace/source/AnimationWatchFaceView.mc"; @line = 182; ]
+    function onExitSleep() {
+_home_florian_Desktop_GarminVenu2PedroWatchFace_source_AnimationWatchFaceView_mc_182_27_186_4_start:
+[ "/home/florian/Desktop/GarminVenu2PedroWatchFace/source/AnimationWatchFaceView.mc" 184 8 ]
+        %tmp.1 = 0;
+        putv self :playCount %tmp.1;
+[ "/home/florian/Desktop/GarminVenu2PedroWatchFace/source/AnimationWatchFaceView.mc" 185 8 ]
+        %tmp.2 = self;
+        %tmp.3 = getv function %tmp.2 :play;
+        invoke %tmp.2 %tmp.3();
+_home_florian_Desktop_GarminVenu2PedroWatchFace_source_AnimationWatchFaceView_mc_182_27_186_4_stop:
+    }
+    [ @file = "/home/florian/Desktop/GarminVenu2PedroWatchFace/source/AnimationWatchFaceView.mc"; @line = 188; ]
+    function onEnterSleep() {
+    }
+}
+[ @file = "/home/florian/Desktop/GarminVenu2PedroWatchFace/source/AnimationWatchFaceView.mc"; @line = 1; ]
+<init> {
+}

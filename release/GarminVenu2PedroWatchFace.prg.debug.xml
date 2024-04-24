@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<debugInfo>
+    <manifest filename="/home/florian/Desktop/GarminVenu2PedroWatchFace/manifest.xml"/>
+    <pcToLineNum>
+        <entry filename="/home/florian/Desktop/GarminVenu2PedroWatchFace/source/AnimationWatchFaceView.mc" id="1" lineNum="32" parent="globals/AnimationWatchFaceView" pc="268435457" symbol="&lt;init&gt;"/>
+        <entry filename="/home/florian/Desktop/GarminVenu2PedroWatchFace/source/AnimationWatchFaceView.mc" id="2" lineNum="8" parent="globals/AnimationDelegate" pc="268435476" symbol="&lt;init&gt;"/>
+        <entry filename="/home/florian/Desktop/GarminVenu2PedroWatchFace/release/gen/006-B3703-00/source/Rez.mcgen" id="3" lineNum="7" parent="globals/Rez" pc="268435495" symbol="&lt;init&gt;"/>
+        <entry filename="/home/florian/Desktop/GarminVenu2PedroWatchFace/source/AnimationWatchFaceApp.mc" id="4" lineNum="3" parent="globals/AnimationWatchFaceApp" pc="268435519" symbol="&lt;init&gt;"/>
+        <entry filename="/home/florian/Desktop/GarminVenu2PedroWatchFace/source/AnimationWatchFaceView.mc" id="5" lineNum="122" parent="globals/AnimationWatchFaceView" pc="268435538" symbol="play"/>
+        <entry filename="/home/florian/Desktop/GarminVenu2PedroWatchFace/source/AnimationWatchFaceView.mc" id="5" lineNum="125" parent="globals/AnimationWatchFaceView" pc="268435540" symbol="play"/>
+        <entry filename="/home/florian/Desktop/GarminVenu2PedroWatchFace/source/AnimationWatchFaceView.mc" id="6" lineNum="182" parent="globals/AnimationWatchFaceView" pc="268435601" symbol="onExitSleep"/>
+        <entry filename="/home/florian/Desktop/GarminVenu2PedroWatchFace/source/AnimationWatchFaceView.mc" id="6" lineNum="184" parent="globals/AnimationWatchFaceView" pc="268435603" symbol="onExitSleep"/>
+        <entry filename="/home/florian/Desktop/GarminVenu2PedroWatchFace/source/AnimationWatchFaceView.mc" id="6" lineNum="185" parent="globals/AnimationWatchFaceView" pc="268435616" symbol="onExitSleep"/>
+        <entry filename="/home/florian/Desktop/GarminVenu2PedroWatchFace/source/AnimationWatchFaceView.mc" id="7" lineNum="116" parent="globals/AnimationWatchFaceView" pc="268435629" symbol="onShow"/>
+        <entry filename="/home/florian/Desktop/GarminVenu2PedroWatchFace/source/AnimationWatchFaceView.mc" id="7" lineNum="117" parent="globals/AnimationWatchFaceView" pc="268435631" symbol="onShow"/>
+        <entry filename="/home/florian/Desktop/GarminVenu2PedroWatchFace/source/AnimationWatchFaceView.mc" id="7" lineNum="119" parent="globals/AnimationWatchFaceView" pc="268435644" symbol="onShow"/>
+        <entry filename="/home/florian/Desktop/GarminVenu2PedroWatchFace/source/AnimationWatchFaceView.mc" id="8" lineNum="58" parent="globals/AnimationWatchFaceView" pc="268435657" symbol="onLayout"/>
+        <entry filename="/home/florian/Desktop/GarminVenu2PedroWatchFace/source/AnimationWatchFaceView.mc" id="8" lineNum="59" parent="globals/AnimationWatchFaceView" pc="268435661" symbol="onLayout"/>
+        <entry filename="/home/florian/Desktop/GarminVenu2PedroWatchFace/source/AnimationWatchFaceView.mc" id="8" lineNum="61" parent="globals/AnimationWatchFaceView" pc="268435702" symbol="onLayout"/>
+        <entry filename="/home/florian/Desktop/GarminVenu2PedroWatchFace/source/AnimationWatchFaceView.mc" id="8" lineNum="62" parent="globals/AnimationWatchFaceView" pc="268435724" symbol="onLayout"/>
+        <entry filename="/home/florian/Desktop/GarminVenu2PedroWatchFace/source/AnimationWatchFaceView.mc" id="8" lineNum="64" parent="globals/AnimationWatchFaceView" pc="268435736" symbol="onLayout"/>
+        <entry filename="/home/florian/Desktop/GarminVenu2PedroWatchFace/source/AnimationWatchFaceView.mc" id="8" lineNum="65" parent="globals/AnimationWatchFaceView" pc="268435753" symbol="onLayout"/>
+        <entry filename="/home/florian/Desktop/GarminVenu2PedroWatchFace/source/AnimationWatchFaceView.mc" id="8" lineNum="66" parent="globals/AnimationWatchFaceView" pc="268435790" symbol="onLayout"/>
+        <entry filename="/home/florian/Desktop/GarminVenu2PedroWatchFace/source/AnimationWatchFaceView.mc" id="8" lineNum="67" parent="globals/AnimationWatchFaceView" pc="268435815" symbol="onLayout"/>
+        <entry filename="/home/florian/Desktop/GarminVenu2PedroWatchFace/source/AnimationWatchFaceView.mc" id="8" lineNum="68" parent="globals/AnimationWatchFaceView" pc="268435852" symbol="onLayout"/>
+        <entry filename="/home/florian/Desktop/GarminVenu2PedroWatchFace/source/AnimationWatchFaceView.mc" id="8" lineNum="70" parent="globals/AnimationWatchFaceView" pc="268435877" symbol="onLayout"/>
+        <entry filename="/home/florian/Desktop/GarminVenu2PedroWatchFace/source/AnimationWatchFaceView.mc" id="8" lineNum="71" parent="globals/AnimationWatchFaceView" pc="268435887" symbol="onLayout"/>
+        <entry filename="/home/florian/Desktop/GarminVenu2PedroWatchFace/source/AnimationWatchFaceView.mc" id="8" lineNum="73" parent="globals/AnimationWatchFaceView" pc="268435903" symbol="onLayout"/>
+        <entry filename="/home/florian/Desktop/GarminVenu2PedroWatchFace/source/AnimationWatchFaceView.mc" id="8" lineNum="74" parent="globals/AnimationWatchFaceView" pc="268435913" symbol="onLayout"/>
+        <entry filename="/home/florian/Desktop/GarminVenu2PedroWatchFace/source/AnimationWatchFaceView.mc" id="8" lineNum="76" parent="globals/AnimationWatchFaceView" pc="268435917" symbol="onLayout"/>
+        <entry filename="/home/florian/Desktop/GarminVenu2PedroWatchFace/source/AnimationWatchFaceView.mc" id="8" lineNum="84" parent="globals/AnimationWatchFaceView" pc="268435998" symbol="onLayout"/>
+        <entry filename="/home/florian/Desktop/GarminVenu2PedroWatchFace/source/AnimationWatchFaceView.mc" id="8" lineNum="85" parent="globals/AnimationWatchFaceView" pc="268436026" symbol="onLayout"/>
+        <entry filename="/home/florian/Desktop/GarminVenu2PedroWatchFace/source/AnimationWatchFaceView.mc" id="8" lineNum="86" parent="globals/AnimationWatchFaceView" pc="268436039" symbol="onLayout"/>
+        <entry filename="/home/florian/Desktop/GarminVenu2PedroWatchFace/source/AnimationWatchFaceView.mc" id="8" lineNum="87" parent="globals/AnimationWatchFaceView" pc="268436055" symbol="onLayout"/>
+        <entry filename="/home/florian/Desktop/GarminVenu2PedroWatchFace/source/AnimationWatchFaceView.mc" id="8" lineNum="90" parent="globals/AnimationWatchFaceView" pc="268436083" symbol="onLayout"/>
+        <entry filename="/home/florian/Desktop/GarminVenu2PedroWatchFace/source/AnimationWatchFaceView.mc" id="8" lineNum="98" parent="globals/AnimationWatchFaceView" pc="268436164" symbol="onLayout"/>
+        <entry filename="/home/florian/Desktop/GarminVenu2PedroWatchFace/source/AnimationWatchFaceView.mc" id="8" lineNum="101" parent="globals/AnimationWatchFaceView" pc="268436187" symbol="onLayout"/>
+        <entry filename="/home/florian/Desktop/GarminVenu2PedroWatchFace/source/AnimationWatchFaceView.mc" id="8" lineNum="102" parent="globals/AnimationWatchFaceView" pc="268436246" symbol="onLayout"/>
+        <entry filename="/home/florian/Desktop/GarminVenu2PedroWatchFace/source/AnimationWatchFaceView.mc" id="8" lineNum="109" parent="globals/AnimationWatchFaceView" pc="268436374" symbol="onLayout"/>
+        <entry filename="/home/florian/Desktop/GarminVenu2PedroWatchFace/source/AnimationWatchFaceView.mc" id="8" lineNum="110" parent="globals/AnimationWatchFaceView" pc="268436394" symbol="onLayout"/>
+        <entry filename="/home/florian/Desktop/GarminVenu2PedroWatchFace/source/AnimationWatchFaceView.mc" id="9" lineNum="133" parent="globals/AnimationWatchFaceView" pc="268436415" symbol="onPartialUpdate"/>
+        <entry filename="/home/florian/Desktop/GarminVenu2PedroWatchFace/source/AnimationWatchFaceView.mc" id="9" lineNum="135" parent="globals/AnimationWatchFaceView" pc="268436417" symbol="onPartialUpdate"/>
+        <entry filename="/home/florian/Desktop/GarminVenu2PedroWatchFace/source/AnimationWatchFaceView.mc" id="10" lineNum="138" parent="globals/AnimationWatchFaceView" pc="268436432" symbol="updateWatchOverlay"/>
+        <entry filename="/home/florian/Desktop/GarminVenu2PedroWatchFace/source/AnimationWatchFaceView.mc" id="10" lineNum="139" parent="globals/AnimationWatchFaceView" pc="268436436" symbol="updateWatchOverlay"/>
+        <entry filename="/home/florian/Desktop/GarminVenu2PedroWatchFace/source/AnimationWatchFaceView.mc" id="10" lineNum="140" parent="globals/AnimationWatchFaceView" pc="268436448" symbol="updateWatchOverlay"/>
+        <entry filename="/home/florian/Desktop/GarminVenu2PedroWatchFace/source/AnimationWatchFaceView.mc" id="10" lineNum="142" parent="globals/AnimationWatchFaceView" pc="268436449" symbol="updateWatchOverlay"/>
+        <entry filename="/home/florian/Desktop/GarminVenu2PedroWatchFace/source/AnimationWatchFaceView.mc" id="10" lineNum="143" parent="globals/AnimationWatchFaceView" pc="268436468" symbol="updateWatchOverlay"/>
+        <entry filename="/home/florian/Desktop/GarminVenu2PedroWatchFace/source/AnimationWatchFaceView.mc" id="10" lineNum="145" parent="globals/AnimationWatchFaceView" pc="268436474" symbol="updateWatchOverlay"/>
+        <entry filename="/home/florian/Desktop/GarminVenu2PedroWatchFace/source/AnimationWatchFaceView.mc" id="10" lineNum="149" parent="globals/AnimationWatchFaceView" pc="268436475" symbol="updateWatchOverlay"/>
+        <entry filename="/home/florian/Desktop/GarminVenu2PedroWatchFace/source/AnimationWatchFaceView.mc" id="10" lineNum="150" parent="globals/AnimationWatchFaceView" pc="268436492" symbol="updateWatchOverlay"/>
+        <entry filename="/home/florian/Desktop/GarminVenu2PedroWatchFace/source/AnimationWatchFaceView.mc" id="10" lineNum="151" parent="globals/AnimationWatchFaceView" pc="268436566" symbol="updateWatchOverlay"/>
+        <entry filename="/home/florian/Desktop/GarminVenu2PedroWatchFace/source/AnimationWatchFaceView.mc" id="10" lineNum="153" parent="globals/AnimationWatchFaceView" pc="268436624" symbol="updateWatchOverlay"/>
+        <entry filename="/home/florian/Desktop/GarminVenu2PedroWatchFace/source/AnimationWatchFaceView.mc" id="10" lineNum="155" parent="globals/AnimationWatchFaceView" pc="268436629" symbol="updateWatchOverlay"/>
+        <entry filename="/home/florian/Desktop/GarminVenu2PedroWatchFace/source/AnimationWatchFaceView.mc" id="10" lineNum="158" parent="globals/AnimationWatchFaceView" pc="268436644" symbol="updateWatchOverlay"/>
+        <entry filename="/home/florian/Desktop/GarminVenu2PedroWatchFace/source/AnimationWatchFaceView.mc" id="10" lineNum="167" parent="globals/AnimationWatchFaceView" pc="268436712" symbol="updateWatchOverlay"/>
+        <entry filename="/home/florian/Desktop/GarminVenu2PedroWatchFace/source/AnimationWatchFaceView.mc" id="10" lineNum="168" parent="globals/AnimationWatchFaceView" pc="268436734" symbol="updateWatchOverlay"/>
+        <entry filename="/home/florian/Desktop/GarminVenu2PedroWatchFace/source/AnimationWatchFaceView.mc" id="10" lineNum="171" parent="globals/AnimationWatchFaceView" pc="268436746" symbol="updateWatchOverlay"/>
+        <entry filename="/home/florian/Desktop/GarminVenu2PedroWatchFace/source/AnimationWatchFaceView.mc" id="10" lineNum="173" parent="globals/AnimationWatchFaceView" pc="268436751" symbol="updateWatchOverlay"/>
+        <entry filename="/home/florian/Desktop/GarminVenu2PedroWatchFace/source/AnimationWatchFaceView.mc" id="12" lineNum="53" parent="globals/AnimationWatchFaceView" pc="268436795" symbol="initialize"/>
+        <entry filename="/home/florian/Desktop/GarminVenu2PedroWatchFace/source/AnimationWatchFaceView.mc" id="12" lineNum="54" parent="globals/AnimationWatchFaceView" pc="268436797" symbol="initialize"/>
+        <entry filename="/home/florian/Desktop/GarminVenu2PedroWatchFace/source/AnimationWatchFaceView.mc" id="13" lineNum="177" parent="globals/AnimationWatchFaceView" pc="268436816" symbol="onHide"/>
+        <entry filename="/home/florian/Desktop/GarminVenu2PedroWatchFace/source/AnimationWatchFaceView.mc" id="13" lineNum="179" parent="globals/AnimationWatchFaceView" pc="268436818" symbol="onHide"/>
+        <entry filename="/home/florian/Desktop/GarminVenu2PedroWatchFace/source/AnimationWatchFaceView.mc" id="14" lineNum="128" parent="globals/AnimationWatchFaceView" pc="268436837" symbol="onUpdate"/>
+        <entry filename="/home/florian/Desktop/GarminVenu2PedroWatchFace/source/AnimationWatchFaceView.mc" id="14" lineNum="130" parent="globals/AnimationWatchFaceView" pc="268436839" symbol="onUpdate"/>
+        <entry filename="/home/florian/Desktop/GarminVenu2PedroWatchFace/source/AnimationWatchFaceView.mc" id="15" lineNum="12" parent="globals/AnimationDelegate" pc="268436854" symbol="initialize"/>
+        <entry filename="/home/florian/Desktop/GarminVenu2PedroWatchFace/source/AnimationWatchFaceView.mc" id="15" lineNum="13" parent="globals/AnimationDelegate" pc="268436856" symbol="initialize"/>
+        <entry filename="/home/florian/Desktop/GarminVenu2PedroWatchFace/source/AnimationWatchFaceView.mc" id="15" lineNum="14" parent="globals/AnimationDelegate" pc="268436866" symbol="initialize"/>
+        <entry filename="/home/florian/Desktop/GarminVenu2PedroWatchFace/source/AnimationWatchFaceView.mc" id="16" lineNum="17" parent="globals/AnimationDelegate" pc="268436889" symbol="onAnimationEvent"/>
+        <entry filename="/home/florian/Desktop/GarminVenu2PedroWatchFace/source/AnimationWatchFaceView.mc" id="16" lineNum="19" parent="globals/AnimationDelegate" pc="268436891" symbol="onAnimationEvent"/>
+        <entry filename="/home/florian/Desktop/GarminVenu2PedroWatchFace/source/AnimationWatchFaceView.mc" id="16" lineNum="20" parent="globals/AnimationDelegate" pc="268436902" symbol="onAnimationEvent"/>
+        <entry filename="/home/florian/Desktop/GarminVenu2PedroWatchFace/source/AnimationWatchFaceView.mc" id="16" lineNum="21" parent="globals/AnimationDelegate" pc="268436938" symbol="onAnimationEvent"/>
+        <entry filename="/home/florian/Desktop/GarminVenu2PedroWatchFace/source/AnimationWatchFaceView.mc" id="16" lineNum="22" parent="globals/AnimationDelegate" pc="268436974" symbol="onAnimationEvent"/>
+        <entry filename="/home/florian/Desktop/GarminVenu2PedroWatchFace/source/AnimationWatchFaceView.mc" id="16" lineNum="23" parent="globals/AnimationDelegate" pc="268436993" symbol="onAnimationEvent"/>
+        <entry filename="/home/florian/Desktop/GarminVenu2PedroWatchFace/source/AnimationWatchFaceView.mc" id="16" lineNum="24" parent="globals/AnimationDelegate" pc="268437004" symbol="onAnimationEvent"/>
+        <entry filename="/home/florian/Desktop/GarminVenu2PedroWatchFace/source/AnimationWatchFaceView.mc" id="16" lineNum="27" parent="globals/AnimationDelegate" pc="268437026" symbol="onAnimationEvent"/>
+        <entry filename="/home/florian/Desktop/GarminVenu2PedroWatchFace/source/AnimationWatchFaceApp.mc" id="18" lineNum="18" parent="globals/AnimationWatchFaceApp" pc="268437048" symbol="getInitialView"/>
+        <entry filename="/home/florian/Desktop/GarminVenu2PedroWatchFace/source/AnimationWatchFaceApp.mc" id="18" lineNum="19" parent="globals/AnimationWatchFaceApp" pc="268437050" symbol="getInitialView"/>
+        <entry filename="/home/florian/Desktop/GarminVenu2PedroWatchFace/source/AnimationWatchFaceApp.mc" id="19" lineNum="5" parent="globals/AnimationWatchFaceApp" pc="268437091" symbol="initialize"/>
+        <entry filename="/home/florian/Desktop/GarminVenu2PedroWatchFace/source/AnimationWatchFaceApp.mc" id="19" lineNum="6" parent="globals/AnimationWatchFaceApp" pc="268437093" symbol="initialize"/>
+        <entry filename="/home/florian/Desktop/GarminVenu2PedroWatchFace/release/gen/006-B3703-00/source/Rez.mcgen" id="21" lineNum="14" parent="globals/Rez/Layouts" pc="268437112" symbol="WatchFace"/>
+        <entry filename="/home/florian/Desktop/GarminVenu2PedroWatchFace/release/gen/006-B3703-00/source/Rez.mcgen" id="21" lineNum="15" parent="globals/Rez/Layouts" pc="268437124" symbol="WatchFace"/>
+        <entry filename="/home/florian/Desktop/GarminVenu2PedroWatchFace/release/gen/006-B3703-00/source/Rez.mcgen" id="21" lineNum="17" parent="globals/Rez/Layouts" pc="268437236" symbol="WatchFace"/>
+        <entry filename="/home/florian/Desktop/GarminVenu2PedroWatchFace/release/gen/006-B3703-00/source/Rez.mcgen" id="21" lineNum="19" parent="globals/Rez/Layouts" pc="268437348" symbol="WatchFace"/>
+    </pcToLineNum>
+    <symbolTable>
+        <entry id="8388639" module="true" symbol="Graphics"/>
+        <entry id="8391281" object="true" symbol="AnimationDelegate"/>
+        <entry id="6" object="true" symbol="AnimationWatchFaceApp"/>
+        <entry id="8388632" method="true" symbol="&lt;init&gt;"/>
+        <entry id="8391333" symbol="delegate"/>
+        <entry field="true" id="10" symbol="drawLayerArea"/>
+        <entry field="true" id="8388611" module="true" symbol="Toybox"/>
+        <entry field="true" id="17" symbol="minorTextOffsetY"/>
+        <entry field="true" id="16" symbol="minorTextOffsetX"/>
+        <entry id="7" object="true" symbol="AnimationWatchFaceView"/>
+        <entry field="true" id="26" symbol="AppName"/>
+        <entry id="5" module="true" symbol="globals/Rez/Strings"/>
+        <entry id="8388648" module="true" symbol="WatchUi"/>
+        <entry id="8390097" method="true" symbol="onPartialUpdate"/>
+        <entry field="true" id="20" symbol="rand_base"/>
+        <entry id="2" module="true" symbol="globals/Rez"/>
+        <entry id="8389124" method="true" symbol="onUpdate"/>
+        <entry id="8389375" method="true" object="true" symbol="WatchFace"/>
+        <entry field="true" id="8389065" symbol="locY"/>
+        <entry field="true" id="8389064" symbol="locX"/>
+        <entry field="true" id="11" symbol="gap"/>
+        <entry field="true" id="14" symbol="majorTextOffsetY"/>
+        <entry field="true" id="13" symbol="majorTextOffsetX"/>
+        <entry id="8388771" module="true" object="true" symbol="Drawables"/>
+        <entry id="8389348" symbol="font"/>
+        <entry field="true" id="8389067" symbol="height"/>
+        <entry id="4" module="true" symbol="globals/Rez/Layouts"/>
+        <entry field="true" id="8389066" symbol="width"/>
+        <entry id="8391298" method="true" symbol="play"/>
+        <entry id="8389122" method="true" symbol="onLayout"/>
+        <entry id="8389376" method="true" symbol="onEnterSleep"/>
+        <entry field="true" id="8389063" symbol="identifier"/>
+        <entry id="8389349" symbol="justification"/>
+        <entry id="3" module="true" symbol="globals/Rez/Drawables"/>
+        <entry field="true" id="12" symbol="majorFont"/>
+        <entry id="8391314" method="true" symbol="onAnimationEvent"/>
+        <entry field="true" id="19" symbol="playCount"/>
+        <entry id="8389377" method="true" symbol="onExitSleep"/>
+        <entry id="8388644" module="true" symbol="System"/>
+        <entry id="8388769" module="true" object="true" symbol="Rez"/>
+        <entry id="21" method="true" symbol="updateWatchOverlay"/>
+        <entry field="true" id="8" symbol="backgroundAnimationLayer"/>
+        <entry id="8388640" module="true" symbol="Lang"/>
+        <entry field="true" id="24" symbol="LauncherIcon"/>
+        <entry id="8388610" symbol="statics"/>
+        <entry id="8389123" method="true" symbol="onShow"/>
+        <entry id="8389350" module="true" symbol="globals"/>
+        <entry field="true" id="25" symbol="backgroundmonkey"/>
+        <entry id="8388770" module="true" object="true" symbol="Strings"/>
+        <entry field="true" id="15" symbol="minorFont"/>
+        <entry id="8388702" method="true" symbol="initialize"/>
+        <entry id="8389279" method="true" symbol="onStart"/>
+        <entry field="true" id="22" symbol="view"/>
+        <entry field="true" id="9" symbol="drawLayer"/>
+        <entry id="8389280" method="true" symbol="getInitialView"/>
+        <entry id="8389281" method="true" symbol="onStop"/>
+        <entry id="8389347" symbol="color"/>
+        <entry id="23" module="true" symbol="Layouts"/>
+        <entry id="8388636" module="true" symbol="Attention"/>
+        <entry field="true" id="18" symbol="partialUpdateClip"/>
+        <entry id="8389125" method="true" symbol="onHide"/>
+        <entry id="8388635" module="true" symbol="Application"/>
+    </symbolTable>
+    <localVars>
+        <entry arg="true" endPc="268436414" name="dc" stackId="1" startPc="268435657"/>
+        <entry endPc="268436413" name="settings" stackId="2" startPc="268435661"/>
+        <entry endPc="268436413" name="majorFontWidth" stackId="3" startPc="268435661"/>
+        <entry endPc="268436413" name="majorFontHeight" stackId="4" startPc="268435661"/>
+        <entry endPc="268436413" name="minorFontWidth" stackId="5" startPc="268435661"/>
+        <entry endPc="268436413" name="minorFontHeight" stackId="6" startPc="268435661"/>
+        <entry endPc="268436413" name="drawLayerWidth" stackId="7" startPc="268435661"/>
+        <entry endPc="268436413" name="drawLayerHeight" stackId="8" startPc="268435661"/>
+        <entry endPc="268436413" name="partialUpdateWidth" stackId="9" startPc="268435661"/>
+        <entry endPc="268436413" name="partialUpdateHeight" stackId="10" startPc="268435661"/>
+        <entry arg="true" endPc="268436431" name="dc" stackId="1" startPc="268436415"/>
+        <entry arg="true" endPc="268436794" name="isFullUpdate" stackId="1" startPc="268436432"/>
+        <entry endPc="268436793" name="drawLayerDc" stackId="2" startPc="268436436"/>
+        <entry endPc="268436793" name="clockTime" stackId="3" startPc="268436436"/>
+        <entry endPc="268436793" name="hourMinString" stackId="4" startPc="268436436"/>
+        <entry endPc="268436793" name="secString" stackId="5" startPc="268436436"/>
+        <entry arg="true" endPc="268436853" name="dc" stackId="1" startPc="268436837"/>
+        <entry arg="true" endPc="268436888" name="v" stackId="1" startPc="268436854"/>
+        <entry arg="true" endPc="268437047" name="event" stackId="1" startPc="268436889"/>
+        <entry arg="true" endPc="268437047" name="options" stackId="2" startPc="268436889"/>
+        <entry arg="true" endPc="268437374" name="dc" stackId="1" startPc="268437112"/>
+    </localVars>
+    <deviceInfo deviceVersion="eb4346e49ee869417bc699dabd25dbe12780eee3" partNumber="006-B3703-00"/>
+    <annotations>
+        <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="backgroundmonkey"/>
+        <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="LauncherIcon"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="AppName"/>
+    </annotations>
+    <dataEntryOffsetMappings>
+        <dataEntry label="globals" offset="63" parentId="" symbolId="globals" type="module"/>
+        <dataEntry label="globals/AnimationWatchFaceView" offset="134" parentId="globals" symbolId="AnimationWatchFaceView" type="class"/>
+        <dataEntry label="globals/AnimationDelegate" offset="357" parentId="globals" symbolId="AnimationDelegate" type="class"/>
+        <dataEntry label="globals/Rez" offset="420" parentId="globals" symbolId="Rez" type="module"/>
+        <dataEntry label="globals/AnimationWatchFaceApp" offset="475" parentId="globals" symbolId="AnimationWatchFaceApp" type="class"/>
+        <dataEntry label="globals/Rez/Drawables" offset="546" parentId="Rez" symbolId="Drawables" type="module"/>
+        <dataEntry label="globals/Rez/Layouts" offset="593" parentId="Rez" symbolId="Layouts" type="module"/>
+        <dataEntry label="globals/Rez/Strings" offset="632" parentId="Rez" symbolId="Strings" type="module"/>
+    </dataEntryOffsetMappings>
+    <functions>
+        <functionEntry accessMode="public" endPc="268435475" name="&lt;init&gt;" parent="AnimationWatchFaceView" startPc="268435457">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435494" name="&lt;init&gt;" parent="AnimationDelegate" startPc="268435476">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435518" name="&lt;init&gt;" parent="Rez" startPc="268435495">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435537" name="&lt;init&gt;" parent="AnimationWatchFaceApp" startPc="268435519">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435600" name="play" parent="AnimationWatchFaceView" startPc="268435538">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435628" name="onExitSleep" parent="AnimationWatchFaceView" startPc="268435601">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435656" name="onShow" parent="AnimationWatchFaceView" startPc="268435629">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436414" name="onLayout" parent="AnimationWatchFaceView" startPc="268435657">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436431" name="onPartialUpdate" parent="AnimationWatchFaceView" startPc="268436415">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436794" name="updateWatchOverlay" parent="AnimationWatchFaceView" startPc="268436432">
+            <param id="isFullUpdate"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="onEnterSleep" parent="AnimationWatchFaceView">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436815" name="initialize" parent="AnimationWatchFaceView" startPc="268436795">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436836" name="onHide" parent="AnimationWatchFaceView" startPc="268436816">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436853" name="onUpdate" parent="AnimationWatchFaceView" startPc="268436837">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436888" name="initialize" parent="AnimationDelegate" startPc="268436854">
+            <param id="v"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268437047" name="onAnimationEvent" parent="AnimationDelegate" startPc="268436889">
+            <param id="event"/>
+            <param id="options"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="&lt;init&gt;" parent="Drawables">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="&lt;init&gt;" parent="Layouts">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="&lt;init&gt;" parent="Strings">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="onStart" parent="AnimationWatchFaceApp">
+            <param id="state"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268437090" name="getInitialView" parent="AnimationWatchFaceApp" startPc="268437048">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268437111" name="initialize" parent="AnimationWatchFaceApp" startPc="268437091">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="onStop" parent="AnimationWatchFaceApp">
+            <param id="state"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268437374" name="WatchFace" parent="Layouts" startPc="268437112">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+    </functions>
+</debugInfo>
